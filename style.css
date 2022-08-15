@@ -220,6 +220,11 @@ footer {
     width: 90%;
     margin: 10px 5%;
   }
+
+  .right {
+    /* background: yellow; */
+    height: 140px;
+  }
   #texto2 {
     height: 30px;
   }
