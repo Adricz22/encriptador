@@ -1,0 +1,229 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+.container {
+  background: #f3f5fc;
+  margin: auto;
+  width: 960px;
+  height: 720px;
+}
+
+.text-input {
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  color: #0a3871;
+  width: 80%;
+  height: 60%;
+  background: #f3f5fc;
+  outline: none;
+  border: none;
+  font-family: inter;
+  font-style: regular;
+  color: #0a3871;
+  font-size: 32px;
+}
+
+.left {
+  float: left;
+  width: 70%;
+  height: 60%;
+  border-radius: 24px;
+}
+
+.left-button {
+  float: left;
+  width: 70%;
+  height: auto;
+  border-radius: 24px;
+}
+
+#btn-encriptar {
+  font-size: 20px;
+  padding: 20px;
+  width: 35%;
+  height: 55%;
+  background: #0a3871;
+  color: white;
+  border-radius: 24px;
+  margin-left: 10%;
+}
+#btn-desencriptar {
+  font-size: 20px;
+  padding: 20px;
+  width: 35%;
+  height: 55%;
+  background: #d8dfe8;
+  border-radius: 24px;
+  margin-left: 10%;
+}
+p {
+  margin-left: 5%;
+}
+.right {
+  float: right;
+  margin-right: 2%;
+  text-align: center;
+  border-radius: 24px;
+  width: 28%;
+  height: 80%;
+  background: white;
+}
+
+#imgDer {
+  margin-top: 20%;
+  width: 90%;
+  height: auto;
+}
+
+#btn-copiar {
+  margin-left: 33%;
+  margin-top: 90%;
+  display: none;
+  padding: 24px;
+  width: 40%;
+  height: 10%;
+  background: #d8dfe8;
+  border-radius: 24px;
+}
+.logo {
+  width: 100%;
+  float: left;
+}
+.logoImg {
+  margin-top: 1%;
+  float: inherit;
+  margin-left: 5%;
+}
+.tittle {
+  float: inherit;
+  margin-left: 15%;
+}
+
+#texto {
+  font-family: inter;
+  font-style: bold;
+  color: #343a40;
+  font-size: 24px;
+  text-align: center;
+}
+
+#texto2 {
+  float: left;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 80%;
+  height: 10%;
+  background: white;
+  outline: none;
+  border: none;
+  font-size: 16px;
+  font-family: inter;
+  font-style: regular;
+  text-align: center;
+  color: #495057;
+}
+
+.left-button p {
+  font-size: 16px;
+  font-family: inter;
+  font-style: regular;
+  color: #495057;
+}
+
+#imgYt {
+  float: right;
+  margin-right: 5%;
+  width: 10%;
+  height: 10%;
+}
+
+footer {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 1%;
+}
+
+/* Tablet */
+@media screen and (max-width: 768px) {
+  .container {
+    max-width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .text-input {
+    float: none;
+    display: block;
+    margin: 100px auto;
+    width: 90%;
+    background: #f3f5fc;
+    outline: none;
+    border: none;
+    font-family: inter;
+    font-style: regular;
+    color: #0a3871;
+    font-size: 32px;
+  }
+
+  .left-button {
+    width: 100%;
+    margin: 10px auto;
+  }
+  #imgDer {
+    display: none;
+  }
+
+  .left {
+    float: none;
+    display: block;
+    width: 100%;
+  }
+
+  .right {
+    position: absolute;
+    width: 90%;
+    height: 15%;
+    margin: 250px 5%;
+    display: block;
+    float: none;
+    text-align: center;
+    border-radius: 24px;
+  }
+  #texto2 {
+    float: none;
+    margin: 0 auto;
+    padding: 2%;
+  }
+  #btn-copiar {
+    margin: 0 auto;
+  }
+  footer {
+    margin-top: 380px;
+  }
+}
+
+/* Celu */
+@media screen and (max-width: 420px) {
+  .tittle {
+    float: none;
+    margin: 70px auto;
+    text-align: center;
+  }
+  #btn-encriptar {
+    width: 90%;
+    margin: 10px 5%;
+  }
+  #btn-desencriptar {
+    width: 90%;
+    margin: 10px 5%;
+  }
+  #texto2 {
+    height: 30px;
+  }
+  footer {
+    margin-top: 150px;
+  }
+}
